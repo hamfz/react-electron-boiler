@@ -1,5 +1,5 @@
 ## get running
-`git clone <repo url>`
+`git clone git@github.com:hamfz/slopbook.git`
 
 `npm install`
 
