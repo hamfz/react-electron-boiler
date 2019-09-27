@@ -86,26 +86,26 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./app/src/App.jsx":
+/***/ "./app/src/app.jsx":
 /*!*************************!*\
-  !*** ./app/src/App.jsx ***!
+  !*** ./app/src/app.jsx ***!
   \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"] {\n  render() {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n      className: \"hello\"\n    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hello React!\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"If you are trying to build Electron apps using React, or you just want to play around with them, feel free to use this seed as a starting point.\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Pay attention to how everything inside src/ folder is bundled into build/ folder, how global and scoped CSS work, how to compose React components, or simply how Webpack changes relative image paths to public paths after bundling the assets.\"));\n  }\n\n}\n\n//# sourceURL=webpack:///./app/src/App.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return App; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nclass App extends react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"] {\n  render() {\n    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n      className: \"hello\"\n    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h1\", null, \"Hello React!\")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"If you are trying to build Electron apps using React, or you just want to play around with them, feel free to use this seed as a starting point.\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Pay attention to how everything inside src/ folder is bundled into build/ folder, how global and scoped CSS work, how to compose React components, or simply how Webpack changes relative image paths to public paths after bundling the assets.\"));\n  }\n\n}\n\n//# sourceURL=webpack:///./app/src/app.jsx?");
 
 /***/ }),
 
-/***/ "./app/src/global.css":
-/*!****************************!*\
-  !*** ./app/src/global.css ***!
-  \****************************/
+/***/ "./app/src/assets/css/global.css":
+/*!***************************************!*\
+  !*** ./app/src/assets/css/global.css ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./global.css */ \"./node_modules/css-loader/dist/cjs.js!./app/src/global.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./app/src/global.css?");
+eval("var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!./global.css */ \"./node_modules/css-loader/dist/cjs.js!./app/src/assets/css/global.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./app/src/assets/css/global.css?");
 
 /***/ }),
 
@@ -117,18 +117,18 @@ eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _App_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.jsx */ \"./app/src/App.jsx\");\n/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./global.css */ \"./app/src/global.css\");\n/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('app'));\n\n//# sourceURL=webpack:///./app/src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _app_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.jsx */ \"./app/src/app.jsx\");\n/* harmony import */ var _assets_css_global_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/css/global.css */ \"./app/src/assets/css/global.css\");\n/* harmony import */ var _assets_css_global_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_css_global_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nObject(react_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app_jsx__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), document.getElementById('app'));\n\n//# sourceURL=webpack:///./app/src/index.js?");
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./app/src/global.css":
-/*!******************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./app/src/global.css ***!
-  \******************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./app/src/assets/css/global.css":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./app/src/assets/css/global.css ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/*\\n * Global constants goes here\\n */\\n:root {\\n    --primary-color: #42b983;\\n}\\n\\n\\n/*\\n * Global CSS goes here, it requires to use :global before each style\\n */\\n:global html {\\n    height: 100%;\\n}\\n:global body {\\n    display: flex;\\n    align-items: center;\\n    justify-content: center;\\n    height: 100%;\\n    margin: auto;\\n}\\n:global #app {\\n    color: #2c3e50;\\n    max-width: 600px;\\n    font-family: Source Sans Pro, Helvetica, sans-serif;\\n    text-align: center;\\n}\\n:global #app p {\\n    text-align: justify;\\n}\\n:global .hello {\\n    color: var(--primary-color);\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./app/src/global.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"/*\\n * Global constants goes here\\n */\\n:root {\\n  --primary-color: #42b983;\\n}\\n\\n/*\\n * Global CSS goes here, it requires to use :global before each style\\n */\\nhtml {\\n  height: 100%;\\n}\\nbody {\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  height: 100%;\\n  margin: auto;\\n}\\n#app {\\n  color: #2c3e50;\\n  max-width: 600px;\\n  font-family: Source Sans Pro, Helvetica, sans-serif;\\n  text-align: center;\\n}\\n#app p {\\n  text-align: justify;\\n}\\n.hello {\\n  color: var(--primary-color);\\n}\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./app/src/assets/css/global.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
