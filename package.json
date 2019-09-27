@@ -1,31 +1,30 @@
 {
   "name": "electron-react-webpack",
   "version": "1.0.0",
-  "description": "Electron + React 16 + Webpack 4 template.",
   "main": "main_process.js",
   "scripts": {
-    "bundle": "webpack --mode development",
+    "bundle:dev": "webpack --mode development --watch",
     "serve": "electron .",
-    "start": "npm-run-all --parallel bundle serve"
+    "start": "npm-run-all --parallel bundle:dev serve"
   },
-  "author": "J. Renato Ramos González <renato.etc.etc.etc@gmail.com>",
   "repository": "pastahito/electron-react-webpack",
-  "license": "WTFPL",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.10",
-    "electron": "^1.8.2",
-    "electron-reload": "^1.2.2",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^3.2.0",
+    "electron": "^6.0.10",
+    "electron-reload": "^1.5.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.10",
     "npm-run-all": "^4.1.2",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
